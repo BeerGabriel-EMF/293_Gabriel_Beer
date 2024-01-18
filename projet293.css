@@ -1,34 +1,23 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
 }
 
-image{
-    width: 500px;
+nav div{
+    margin-top: 60px;
+    margin-inline: 60px;
 }
-
 nav{
-    margin-top: 50px;
-    background-color: #afd7ee;
+    color: white;
     display: flex;
     justify-content: space-around;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-#menuActif{
-    background-color: #029bf3;
-    padding: 20p;
-}
-
-nav div {
-    padding: 20px;
-}
-
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
@@ -40,24 +29,86 @@ header{
 }
 
 h1{
-    display: flex;
     align-items: center;
     justify-content: center;
-    
     color: white;
-    height: 400px;
+    height: 200px;
     font-size:5vw;
    
 }
 
 article{
-    margin: 50px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     text-align: justify;
+    margin-top: 50px;
+    margin-inline: 200px;
 }
 
+article div{
+   margin-inline: 20px;
+}
+
+.image2{
+    width: 700px;
+    height: 500px;
+}
+
+.image3{
+    width: 900px;
+    height: 500px;
+}
+
+.image4{
+    width: 700px;
+    height: 500px;
+}
+
+.image5{
+    width: 800px;
+    height: 500px;
+}
+
+.image6{
+    width: 700px;
+    height: 500px;
+}
+
+.image7{
+    width: 700px;
+    height: 500px;
+}
+
+.image8{
+    width: 700px;
+    height: 500px;
+}
+
+.image9{
+    width: 700px;
+    height: 500px;
+}
+
+.image10{
+    width: 700px;
+    height: 500px;
+}
+
+.image11{
+    width: 700px;
+    height: 500px;
+}
+
+.image12{
+    width: 700px;
+    height: 500px;
+}
+
+.image13{
+    width: 700px;
+    height: 500px;
+}
 
 @media screen and (max-width: 600px) {
     .logo{
@@ -68,56 +119,4 @@ article{
         justify-content: space-around;
         align-items: center;
     }
-}
-
-.image1{
-    
-}
-
-.image2{
-
-}
-
-.image3{
-
-}
-
-.image4{
-
-}
-
-.image5{
-
-}
-
-.image6{
-
-}
-
-.image7{
-
-}
-
-.image8{
-
-}
-
-.image9{
-
-}
-
-.image10{
-
-}
-
-.image11{
-
-}
-
-.image12{
-
-}
-
-.image13{
-
 }
