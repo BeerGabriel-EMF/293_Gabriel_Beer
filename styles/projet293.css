@@ -1,3 +1,9 @@
+/*
+    Auteur: Gabriel BEER
+    Date: 21.12.2023
+    Description: projet module 293
+*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -51,69 +57,81 @@ article div{
 }
 
 .image2{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
+
 .image3{
-    width: 900px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image4{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image5{
-    width: 800px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image6{
-    width: 700px;
-    height: 500px;
+    width: 250px;
+    height: auto;
 }
 
 .image7{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image8{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image9{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image10{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image11{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image12{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
 .image13{
-    width: 700px;
-    height: 500px;
+    width: 350px;
+    height: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
+    article{
+        margin-inline: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .logo{
         display: none;
     }
+
+    article{
+        margin-inline: 0px;
+    }
+
     nav{
         flex-direction: column;
         justify-content: space-around;
