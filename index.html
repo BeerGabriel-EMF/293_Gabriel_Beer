@@ -1,88 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <!--
+  <!--
 		Auteur: Gabriel BEER
 		Date: 21.12.2023
 		Description: projet module 293
 	-->
 
-    <head>
-        <title>Accueil</title>
-        <link rel="stylesheet" href="styles/projet293.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-    </head>
-    <body>
-        <!-- Dans le header j'ai mis le menu pour passer de page en page 
+  <head>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles/projet293.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <!-- Dans le header j'ai mis le menu pour passer de page en page 
             et le titre, cela permet d'avoir tout ca au dessus de l'image de fond. -->
-        <header id="headerAcceuil">
-            <!-- Le nav permet de créer un menu pour passer de page en page 
+    <header id="headerAcceuil">
+      <!-- Le nav permet de créer un menu pour passer de page en page 
                 en mettant le nom de la page dedestination dans un div et 
                 mettre le lien dans un <a> qui entoure le div-->
-            <nav>
-                <a href="drapeaux.html">
-                    <div>Les drapeaux</div>
-                </a>
-                <a href="points.html">
-                    <div>Les Points en formule 1</div>
-                </a>
-                <a href="FIA.html">
-                    <div>La FIA</div>
-                </a>
-                <a href="FOM.html">
-                    <div>La FOM</div>
-                </a>
-            </nav>
-            <h1>Formule 1</h1>
-        </header>
+      <nav>
+        <a href="index.html">
+          <div>Accueil</div>
+        </a>
+        <a href="drapeaux.html">
+          <div>Les Drapeaux</div>
+        </a>
+        <a href="points.html">
+          <div>Les Points en F1</div>
+        </a>
+        <a href="FIA.html">
+          <div>La FIA</div>
+        </a>
+        <a href="FOM.html">
+          <div>La FOM</div>
+        </a>
+      </nav>
+      <h1>Formule 1</h1>
+    </header>
 
-        <!-- Dans le main j'ai mis les articles car c'est le contenu principal -->
-        <main>
-            <article class="articleintro">
-                <div>
-                    Bienvenue, passionné de Formule 1 ou simple curieux, tu es
-                    au bon endroit pour plonger dans l'univers palpitant de la
-                    course automobile la plus prestigieuse au monde. Que tu sois
-                    un novice cherchant à comprendre les bases ou un amateur
-                    chevronné en quête d'informations approfondies sur les
-                    règles de ce sport, notre site a tout ce qu'il te faut.
-                    <br> <br>
+    <!-- Dans le main j'ai mis les articles car c'est le contenu principal -->
+    <main>
+      <article class="articleintro">
+        <div>
+          Bienvenue, passionné de Formule 1 ou simple curieux, tu es au bon
+          endroit pour plonger dans l'univers palpitant de la course automobile
+          la plus prestigieuse au monde. Que tu sois un novice cherchant à
+          comprendre les bases ou un amateur chevronné en quête d'informations
+          approfondies sur les règles de ce sport, notre site a tout ce qu'il te
+          faut.
+        </div>
+        <div class="logo">
+          <img
+            src="/images/imagesAccueil/image2.jpg"
+            alt="image du peloton de f1 au circuit de yas marina"
+            class="image2"
+          />
+        </div>
+      </article>
+      <article>
+        <div>
+          Sur notre site, tu retrouveras des pages captivantes et accessibles
+          sur les règles de la F1, spécialement conçus pour les débutants et les
+          passionnés de tout niveau. Explore les aspects fondamentaux de la
+          Formule 1 et plonge dans l'excitation des courses qui font battre le
+          cœur de millions de fans à travers le monde.
+        </div>
+      </article>
+      <article class="derniereArticle">
+        <div class="logo">
+          <img
+            src="/images/imagesAccueil/image3.jpg"
+            alt="image du raidillon a spa francorchamp"
+            class="image3"
+          />
+        </div>
+        <div>
+          Navigue à travers les différentes sections de notre site pour
+          approfondir tes connaissances sur les drapeaux utilisés lors des
+          courses, comprendre le rôle essentiel de la FIA (Fédération
+          Internationale de l'Automobile) et de la FOM (Formula OneManagement),
+          ainsi que la manière dont les points sont répartis au fil de la
+          saison. Que tu sois ici pour apprendre, partager ta passion ou
+          simplement passer un bon moment [Nom de ton site]est la destination
+          idéale pour tous les amateurs de Formule 1. Attache ta ceinture et
+          prépare-toi pour un voyage palpitant à travers le monde de la vitesse,
+          de la technologie et de l'adrénaline !
+        </div>
+      </article>
+      <!--
+        Source info :
+        Chat gpt
 
-                    Sur notre site, tu retrouveras des pages captivantes et
-                    accessibles sur les règles de la F1, spécialement conçus
-                    pour les débutants et les passionnés de tout niveau. Explore
-                    les aspects fondamentaux de la Formule 1 et plonge dans
-                    l'excitation des courses qui font battre le cœur de millions
-                    de fans à travers le monde. <br> <br>
-                </div>
-                <div class="logo">
-                    <img
-                        src="/images/imagesAccueil/image2.jpg"
-                        class="image2"
-                    />
-                </div>
-            </article>
-            <article class="derniereArticle">
-                <div class="logo">
-                    <img
-                        src="/images/imagesAccueil/image3.jpg"
-                        class="image3"
-                    />
-                </div>
-                <div>
-                    Navigue à travers les différentes sections de notre site
-                    pour approfondir tes connaissances sur les drapeaux utilisés
-                    lors des courses, comprendre le rôle essentiel de la FIA
-                    (Fédération Internationale de l'Automobile) et de la
-                    FOM (Formula OneManagement), ainsi que la manière dont les
-                    points sont répartis au fil de la saison. Que tu sois ici
-                    pour apprendre, partager ta passion ou simplement passer un
-                    bon moment [Nom de ton site]est la destination idéale pour
-                    tous les amateurs de Formule 1. Attache ta ceinture et
-                    prépare-toi pour un voyage palpitant à travers le monde de
-                    la vitesse, de la technologie et de l'adrénaline !
-                </div>
-            </article>
-        </main>
-    </body>
+        Source image : 
+        image1 : https://www.wsupercars.com
+        image2 : https://racingnews365.com/every-f1-team-summoned-by-abu-dhabi-stewards-after-bizarre-incident
+        image3 : https://www.f1-fansite.com/f1-news/dutch-and-belgian-gp-bosses-play-down-2024-f1-calendar-rumours/
+        image4 : https://www.wsupercars.com
+      -->
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>

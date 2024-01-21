@@ -5,158 +5,160 @@
 */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
 }
 
 nav div {
-    margin-top: 60px;
-    margin-inline: 60px;
-    font-size: 30px;
+  margin-top: 60px;
+  margin-inline: 60px;
+  font-size: 20px;
 }
 
 nav {
-    color: white;
-    display: flex;
-    justify-content: space-around;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#headerAcceuil{
-    background-image: url("/images/imagesAccueil/image1.jpg");
-}   
-
-#headerDrapeaux{
-    background-image: url("/images/imagesDrapeau/image1.jpg");
+#headerAcceuil {
+  background-image: url("/images/imagesAccueil/image1.jpg");
 }
 
-#headerPoints{
-    background-image: url("/images/ImagesPoints/image1.jpg");
+#headerDrapeaux {
+  background-image: url("/images/imagesDrapeau/image1.jpg");
 }
 
-#headerFIA{
-    background-image: url("/images/imagesFIA/images1.jpg");
+#headerPoints {
+  background-image: url("/images/ImagesPoints/image1.jpg");
 }
 
-#headerFOM{
-    background-image: url("/images/imagesFOM/image1.jpg");
+#headerFIA {
+  background-image: url("/images/imagesFIA/images1.jpg");
+}
+
+#headerFOM {
+  background-image: url("/images/imagesFOM/image1.jpg");
 }
 
 h1 {
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 200px;
-    font-size: 5vw;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 200px;
+  font-size: 5vw;
 }
 
 article {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    text-align: justify;
-    margin-top: 50px;
-    margin-inline: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: justify;
+  margin-top: 50px;
+  margin-inline: 300px;
 }
 
-.derniereArticle{
-    margin-bottom: 150px;
+.derniereArticle {
+  margin-bottom: 150px;
 }
 
-img { 
-    width: 500px;
-    height: auto;
+img {
+  width: 500px;
+  height: auto;
 }
 
 .image1 {
-    width: 250px;
-    height: auto;
+  width: 250px;
+  height: auto;
 }
 
-.image2{
-    width: 600px;
-    height: auto;
+.image2 {
+  width: 600px;
+  height: auto;
 }
 
-.image3{
-    width: 400px;
-    height: auto;
+.image3 {
+  width: 400px;
+  height: auto;
 }
 
-.image4{
-    width: 300px;
-    height: auto;
+.image4 {
+  width: 300px;
+  height: auto;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 article div {
-    margin-inline: 20px;
+  margin-inline: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1550px) {
+  article {
+    margin-inline: 150px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-    article {
-        margin-inline: 10px;
-    }
+  article {
+    margin-inline: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .image14{
-        width: 200px;
-        height: auto;
-    }
+  article {
+    margin-inline: 0px;
+  }
 
-    article {
-        margin-inline: 0px;
-    }
+  nav {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-    nav {
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
+  nav div {
+    margin-top: 20px;
+    font-size: 20px;
+  }
 
-    nav div {
-        margin-top: 20px;
-        font-size: 20px;
-    }
+  h1 {
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 25px;
+  }
 
-    h1{
-        margin-top: 60px;
-        font-weight: 600;
-        font-size: 25px;
-    }
+  #headerAcceuil {
+    background-image: url("/images/imagesAccueil/image4.jpg");
+  }
 
-    #headerAcceuil{
-        background-image: url("/images/imagesAccueil/image4.jpg");
-    }
-
-    #headerFOM{
-        background-image: url(/images/imagesFOM/image7.jpg);
-    }
-
+  #headerFOM {
+    background-image: url(/images/imagesFOM/image7.jpg);
+  }
 }
